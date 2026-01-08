@@ -9,6 +9,9 @@ body {
     background-size: cover;
     touch-action: manipulation;
 }
+h2{
+    color: black;
+}
 p{
     font-family: garamond, serif;
     width: 100%;
