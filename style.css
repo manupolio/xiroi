@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("fondo.jpg");
+    touch-action: manipulation;
+}
+
+p{
+    color: white;
+    size: 30px;
+}
+
+h1,h2{
+    color: white;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 90%;
+}
+
+.qr {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    box-shadow: 10px 10px 20px black;
+}
+
+.button-link {
+    /* Estils originals del teu input */
+    font-family: garamond, serif;
+    width: 100%;
+    max-width: 280px;
+    padding: 16px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    box-shadow: 10px 10px 20px black;
+    color: white;
+    border-radius: 12px;
+    -webkit-tap-highlight-color: transparent;
+
+    /* Ajustos necessaris per a l'etiqueta <a> */
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box; /* Garanteix que el padding no faci l'enllaç més gran del compte */
+}
+
+/* Efecte opcional per quan passes el ratolí per sobre */
+.button-link:hover {
+    background-color: #444;
+}
